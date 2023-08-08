@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "I7VWctkPbaDjqTB9HlgXiqdAOrnvVLIIZIA3RDBqEFC4Piu68aBw4vVGihjPXsCGXsCLAJ3jqCR5N4k/Xcf6+w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Loidy\\source\\repos\\GstreamerWpfApp\\GstreamerWpfApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Loidy\\.nuget\\packages\\giosharp\\3.22.25.74\\giosharp.3.22.25.74.nupkg.sha512",
+    "C:\\Users\\Loidy\\.nuget\\packages\\glibsharp\\3.22.25.74\\glibsharp.3.22.25.74.nupkg.sha512",
+    "C:\\Users\\Loidy\\.nuget\\packages\\gstreamer-sharp-netcore\\0.0.8\\gstreamer-sharp-netcore.0.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

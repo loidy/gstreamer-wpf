@@ -1,0 +1,159 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "GioSharp/3.22.25.74": {
+        "type": "package",
+        "dependencies": {
+          "GLibSharp": "3.22.25.74"
+        },
+        "compile": {
+          "lib/netstandard2.0/GioSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GioSharp.dll": {}
+        }
+      },
+      "GLibSharp/3.22.25.74": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/GLibSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GLibSharp.dll": {}
+        }
+      },
+      "gstreamer-sharp-netcore/0.0.8": {
+        "type": "package",
+        "dependencies": {
+          "GLibSharp": "3.22.25.74",
+          "GioSharp": "3.22.25.74"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/gstreamer-sharp-netcore.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/gstreamer-sharp-netcore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GioSharp/3.22.25.74": {
+      "sha512": "YHaT6D+df57EajZ5EzgMFPz+vLA16eOb/sySEka2T5MnCQIhKUFBsJfJY0iMy1CBEBSJzVNrCFi4R55QivhaPg==",
+      "type": "package",
+      "path": "giosharp/3.22.25.74",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "giosharp.3.22.25.74.nupkg.sha512",
+        "giosharp.nuspec",
+        "lib/netstandard2.0/GioSharp.dll"
+      ]
+    },
+    "GLibSharp/3.22.25.74": {
+      "sha512": "82PaZvqcSyHCYEnwTelhlqxT0wvwaNQNI2D9NlP5DzNZ9J0YMBDm9L9I2YmwJmJhcscu171kxpPs0eeRxHvbdg==",
+      "type": "package",
+      "path": "glibsharp/3.22.25.74",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "glibsharp.3.22.25.74.nupkg.sha512",
+        "glibsharp.nuspec",
+        "lib/netstandard2.0/GLibSharp.dll"
+      ]
+    },
+    "gstreamer-sharp-netcore/0.0.8": {
+      "sha512": "MPAdHJk7bYMervk2vtgMFkMgEBbyLzp5IXS8KmfhtA1OcvdC8DHaTP079l7W9Rsd54p3OPJ9sr3kgZ4tMlwIbA==",
+      "type": "package",
+      "path": "gstreamer-sharp-netcore/0.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gstreamer-sharp-netcore.0.0.8.nupkg.sha512",
+        "gstreamer-sharp-netcore.nuspec",
+        "icon.png",
+        "lib/netcoreapp3.1/gstreamer-sharp-netcore.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "gstreamer-sharp-netcore >= 0.0.8"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Loidy\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Loidy\\source\\repos\\GstreamerWpfApp\\GstreamerWpfApp.csproj",
+      "projectName": "GstreamerWpfApp",
+      "projectPath": "C:\\Users\\Loidy\\source\\repos\\GstreamerWpfApp\\GstreamerWpfApp.csproj",
+      "packagesPath": "C:\\Users\\Loidy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Loidy\\source\\repos\\GstreamerWpfApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Loidy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Users\\Loidy\\source\\repos\\gstreamer-netcore\\bin\\x64\\Release": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "gstreamer-sharp-netcore": {
+            "target": "Package",
+            "version": "[0.0.8, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
