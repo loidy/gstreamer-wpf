@@ -83,23 +83,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Loidy\\.nuget\\packages\\": {},
+    "C:\\Users\\filgu\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Loidy\\source\\repos\\GstreamerWpfApp\\GstreamerWpfApp.csproj",
+      "projectUniqueName": "C:\\Users\\filgu\\source\\repos\\gstreamer-wpf\\GstreamerWpfApp.csproj",
       "projectName": "GstreamerWpfApp",
-      "projectPath": "C:\\Users\\Loidy\\source\\repos\\GstreamerWpfApp\\GstreamerWpfApp.csproj",
-      "packagesPath": "C:\\Users\\Loidy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Loidy\\source\\repos\\GstreamerWpfApp\\obj\\",
+      "projectPath": "C:\\Users\\filgu\\source\\repos\\gstreamer-wpf\\GstreamerWpfApp.csproj",
+      "packagesPath": "C:\\Users\\filgu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\filgu\\source\\repos\\gstreamer-wpf\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Loidy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\filgu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -108,8 +108,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Users\\Loidy\\source\\repos\\gstreamer-netcore\\bin\\x64\\Release": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -152,7 +150,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -28,16 +28,21 @@ namespace GstreamerWpfApp
         {
             InitializeComponent();
 
+            // Initialize GStreamer
+            Gst.Application.Init();
+            GtkSharp.GstreamerSharp.ObjectManager.Initialize();
+
             Camera = new Hvt1000();
             streamImageComponent.DataContext = Camera;
             button.DataContext = Camera;
+
+            Camera.CreatePipeline();
+            Camera.Play();
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            string temp = Random.Shared.NextInt64().ToString();
-            Trace.WriteLine(temp);
-            Camera.Content = temp;
+            Camera.RenderImage();
         }
     }
 }

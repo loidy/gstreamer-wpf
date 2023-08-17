@@ -11,9 +11,7 @@ namespace GstreamerWpfApp
 
         private void Main(object sender, StartupEventArgs e)
         {
-            // Initialize GStreamer
-            Gst.Application.Init();
-
+            /*
             // Build the pipeline
             var pipeline = Parse.Launch("udpsrc port=50008 ! application/x-rtp,payload=96,encoding-name=H264 ! rtph264depay ! avdec_h264 ! queue ! videorate ! videoconvert ! autovideosink");
 
@@ -25,7 +23,7 @@ namespace GstreamerWpfApp
             var msg = bus.TimedPopFiltered(Constants.CLOCK_TIME_NONE, MessageType.Eos | MessageType.Error);
 
             // Free resources
-            pipeline.SetState(State.Null);
+            pipeline.SetState(State.Null);*/
         }
 
     }

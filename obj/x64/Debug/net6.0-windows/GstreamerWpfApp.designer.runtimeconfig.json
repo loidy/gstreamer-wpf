@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Loidy\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Loidy\\.nuget\\packages",
+      "C:\\Users\\filgu\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\filgu\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {
